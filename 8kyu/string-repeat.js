@@ -7,7 +7,9 @@
 // My Solution
 
 function repeatStr (n, s) {
-
+    let repeatString = ''
+    for (let i = 0; i < n; i++) {
+        repeatString += s
+    }
+    return repeatString
 }
-
-https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/javascript
