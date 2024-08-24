@@ -13,7 +13,3 @@ function spinWords(string){
     let finalArray = stringArray.map(e => e.length > 4 ? e.split('').reverse().join('') : e)
     return finalArray.join(' ')
 }
-
-// function spinWords(string){
-//     return string.split('').map(e => e.length > 4 ? e.split('').reverse().join('') : e).join(' ')
-// }
